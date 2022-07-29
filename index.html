@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penguin shoes</title>
+    <!-- Tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header>
+      <!-- navigation section start  -->
+      <nav class="px-10">
+        <div class="flex justify-center items-center py-4">
+          <div class="w-1/2">
+            <img src="./icons/Logo.png" class="w-2/5" />
+          </div>
+          <div class="w-1/2">
+            <ul class="flex justify-evenly font-semibold">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navigation section end -->
+    </header>
+  </body>
+</html>
